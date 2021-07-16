@@ -1,14 +1,14 @@
-package test;
+package POJO;
 
 import com.google.gson.Gson;
 
-public class AddPlacePOJO {
+public class AddPlacePOJO_RESPONSE {
 String status;
 String place_id;
 String scope;
 String reference;
 String id;
-public AddPlacePOJO() {}
+public AddPlacePOJO_RESPONSE() {}
 public String getStatus() {
 	return status;
 }
